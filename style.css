@@ -1,0 +1,24 @@
+#dashedWord
+{
+    font-size: xxx-large;
+}
+
+body
+{
+    background-color: burlywood;
+    font-family: oswwald, "Arial Narrow", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+#results
+{
+    font-size: x-large;
+}
+

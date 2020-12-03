@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>Lets Play Hangman</h1>
+
+<h2>Click the button below to generate your word</h2>
+
+<button id="generateWord">Click for your word</button><br><br>
+
+<div>Your word: <span id="dashedWord"></span></div><br><br>
+
+<label for="userLetter">Type your letter here:</label>
+<input type="text" id="userLetter"><br><br>
+
+<div id="results">
+<div>Your guessed letters: <span id="guessedLetters"></span></div>
+<div>Your amount of wrong guesses: <span id="numWrongGuesses"></span></div><br>
+<div><span id="guessedWrong"></span></div><br><br>
+</div>
+
+</body>
+</html>
